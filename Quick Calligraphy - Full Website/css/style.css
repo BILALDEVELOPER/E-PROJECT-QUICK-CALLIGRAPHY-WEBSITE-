@@ -1,0 +1,98 @@
+/* Basic Reset */
+body, h1, h2, p, ul, li {
+
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #011638;
+    background-color: #d9f0ff;
+}
+
+/* Header */
+header {
+    background-color: #577590;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #577590;
+    color: #fff;
+}
+  /* Dropdown menu background and border */
+  .navbar-nav .dropdown-menu {
+    background-color: #011638;
+    border: none;
+  }
+  
+    /* Dropdown items styling */
+  .navbar-nav .dropdown-item {
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* Dropdown items hover effect */
+  .navbar-nav .dropdown-item:hover {
+    background-color: #577590;
+    color: #ffffff;
+  }
+  
+  /* Adjust dropdown arrow color */
+  .navbar-nav .dropdown-toggle::after {
+    border-top-color: white;
+  }
+.topnav .social-icons, .topnav .auth-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.topnav .social-icons li a, .topnav .auth-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.topnav .social-icons li a:hover, .topnav .auth-links li a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #577590;
+}
+
+.navbar-nav .nav-link {
+    color: #d9f0ff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/* Main Content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+}
+
+h2{
+    color: #011638;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+/* Footer */
+footer {
+    background-color: #577590;
+    color: #fff;
+}
